@@ -4,10 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Miller Tracker</title>
 </head>
 <body>
-	<p>This is the first webpage - woo hoo!!!</p>
-	Hello World!!
+	<p>Len Miller's Tracker</p>
+	<hr size="10">
+	<a href="weight.jsp">Weight Tracking</a>
 </body>
 </html>
