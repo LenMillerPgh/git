@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -61,5 +64,9 @@
 		<div id='nav_search'
 			class='w3-dropnav w3-light-grey w3-card-2 w3-center'></div>
 	</div>
-	</body>
+
+	<p>Len Miller's Tracker</p>
+	<hr size="10">
+	<a href="weight.jsp">Weight Tracking</a>
+</body>
 </html>

@@ -70,7 +70,7 @@ td, th {
 <title>Miller Tracker - Weight</title>
 </head>
 <body>
-	<iframe src="header.html" style="border: none" height="200" width="99%"></iframe>
+	<iframe src="header.html" style="border: none" height="50" width="99%"></iframe>
 
 	<h2>Current Weight Values:</h2>
 	<hr>
@@ -100,12 +100,11 @@ td, th {
 					<form name="delete" action="weight.jsp" method="post">
 						<input type="submit" name="delete" value="Delete"> <input
 							type="hidden" name="weightId" value="${row.weight_id}">
-						${row.weight_id}
 					</form>
 				</td>
 			</tr>
 		</c:forEach>
 	</table>
-	<iframe src="footer.html" style="border: none" height="200" width="99%"></iframe>
+	<iframe src="footer.html" style="border: none" height="50" width="99%"></iframe>
 </body>
 </html>

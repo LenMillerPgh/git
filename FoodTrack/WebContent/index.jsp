@@ -1,14 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Miller Tracker</title>
-</head>
 <body>
-	<p>Len Miller's Tracker</p>
+	<iframe src="header.html" style="border: none" height="120" width="99%"></iframe>
+	<p>Len Miller's Tracker - More To Come</p>
 	<hr size="10">
-	<a href="weight.jsp">Weight Tracking</a>
 </body>
 </html>
