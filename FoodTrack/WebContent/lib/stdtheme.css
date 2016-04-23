@@ -14,35 +14,37 @@ table.lamp, table.w3-table-all {
 /*OPPSETT AV TOP, TOPNAV, SIDEMENU, MAIN, RIGHT OG FOOTER:*/
 .top {
   position:relative;
-  background-color:#ffffff;
+  background-color:#66ccff;
   height:68px;
   padding-top:20px;
   line-height:50px;
   overflow:hidden;
   z-index:1;
 }
-.miller-logo {
+.tracking-logo {
     font-family:FontAwesome;
     text-decoration:none;
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-size:37px;
-	letter-spacing:3px;
 	color:#555555;
 	display:block;
 	position:absolute;
 	top:17px;
 	padding-left:2px;
 }
-.miller-logo .tracker {
+.tracking-logo .ending {
     color:#4CAF50;
+}
+.tracking-logo:hover {
+	color:#555555;
 }
 .topnav {
   position:relative;
   z-index:2;
   font-size: 17px;
-  background-color:#5f5f5f;
+  background-color:#00008B;
   color:#f1f1f1;
   width:100%;
   padding:0;
@@ -53,11 +55,10 @@ table.lamp, table.w3-table-all {
   display:inline-block;
 }
 .topnav a:hover{
-  background-color:#000000;
-  color:#ffffff;
+  background-color:#ffffff;
+  color:#000000;
 }
 .topnav a.active {
-  background-color:#73AD21;
   background-color:#4CAF50;  
   color:#ffffff;
 }

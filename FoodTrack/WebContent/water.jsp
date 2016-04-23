@@ -9,8 +9,8 @@
 <body>
 
 	<div class='w3-container top'>
-		<a class='tracking-logo'>Tracking<span class='ending'>
-			Application</span></a>
+		<a class='miller-logo'>Len Miller<span
+			class='tracker'>Tracking Application</span></a>
 		<div class='w3-right toptext w3-wide'>If you can track it, you can manage it!!</div>
 	</div>
 	<div class='w3-navbar w3-card-2 w3-slim topnav' id='topnav'>
@@ -19,13 +19,9 @@
 				<a href='index.jsp' class='topnav-icons fa fa-home w3-left'
 					title='Home'></a> 
 				<a href='weight.jsp' class='w3-hide-small'
-					title='Weight Tracking / Information'>Weight</a>
+					title='Weight Informaton'>Weight</a>
 				<a href='steps.jsp'	class='w3-hide-small' 
-					title='Step Tracking / Information'>Steps</a>
-				<a href='water.jsp'	class='w3-hide-small' 
-					title='Water Tracking / Information'>Water</a>
-				<a href='food.jsp'	class='w3-hide-small' 
-					title='Food Tracking / Information'>Food</a>
+					title='Steps'>Steps</a>
 			</div>
 			<div
 				style='float: right; width: 110px; overflow: hidden; height: 44px;'>
@@ -64,8 +60,9 @@
 		<div id='nav_search'
 			class='w3-dropnav w3-light-grey w3-card-2 w3-center'></div>
 	</div>
-<article>
+
 	<p>Len Miller's Tracker</p>
-</article>
+	<hr size="10">
+	<a href="weight.jsp">Weight Tracking</a>
 </body>
 </html>
