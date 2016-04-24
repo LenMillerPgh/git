@@ -7,8 +7,12 @@
 <%
 	Class.forName("com.mysql.jdbc.Driver");
 %>
-<sql:setDataSource dataSource="jdbc:mysql://localhost:3306/foodtrack"
-	user="webaccess" password="webaccess" />
+
+<sql:setDataSource 
+	dataSource="jdbc:mysql://localhost:3306/foodtrack" 
+	user="root" 
+	password="Delta510!" 
+/>
 
 <c:set var="dateWeight" value="${param.dateWeight}" />
 <c:set var="weightVal" value="${param.weightVal}" />
@@ -16,14 +20,14 @@
 
 <c:if test="${param.delete == 'Delete'}">
 	<sql:update>
-		    DELETE FROM app.weight WHERE weight_id = ?
+		    DELETE FROM weight WHERE weight_id = ?
 	            <sql:param value="${weightId}" />
 	</sql:update>
 </c:if>
 
 <c:if test="${param.action == 'Submit'}">
 	<sql:update>
-		    INSERT INTO app.weight(weight_date, weight_val) VALUES(?, ?)
+		    INSERT INTO weight(weight_date, weight_val) VALUES(?, ?)
 	            <sql:param value="${dateWeight}" />
 		<sql:param value="${weightVal}" />
 	</sql:update>
@@ -85,7 +89,7 @@
 			</tr>
 
 			<sql:query var="qryWeight">
-                  SELECT weight_id, weight_date, weight_val FROM app.weight ORDER BY weight_date DESC
+                  SELECT weight_id, weight_date, weight_val FROM foodtrack.weight ORDER BY weight_date DESC
           </sql:query>
 
 			<c:forEach var="row" items="${qryWeight.rows}">

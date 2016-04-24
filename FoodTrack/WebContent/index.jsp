@@ -10,7 +10,7 @@
 <body>
 	<header class='w3-container top'>
 		<a class='toptext'>Tracking Application</a> <a
-			class='w3-right toptext1'>If you can track it, you can manage
+			class='w3-right toptext-right'>If you can track it, you can manage
 			it!!</a>
 	</header>
 	<nav class='w3-navbar w3-card-2 w3-slim topnav' id='topnav'>

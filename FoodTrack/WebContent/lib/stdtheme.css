@@ -35,7 +35,10 @@ table.lamp, table.w3-table-all {
 	padding-left:2px;
 	font-weight: bold;
 }
-.toptext1 {
+.toptext:hover {
+	color:#555555;
+}
+.toptext-right {
     font-family: "Times New Roman", Times, serif;
     text-decoration: underline;
     line-height: 1;
@@ -50,6 +53,9 @@ table.lamp, table.w3-table-all {
 	padding-left:2px;
 	font-weight: bold;
 	float: right;
+}
+.toptext-right:hover {
+	color:#555555;
 }
 .topnav {
   position:relative;
