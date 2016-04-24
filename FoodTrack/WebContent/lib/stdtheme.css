@@ -21,24 +21,35 @@ table.lamp, table.w3-table-all {
   overflow:hidden;
   z-index:1;
 }
-.tracking-logo {
-    font-family:FontAwesome;
+.toptext {
+    font-family: Arial, serif;
     text-decoration:none;
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	font-size:37px;
+	font-size: 37px;
 	color:#555555;
 	display:block;
-	position:absolute;
+	top:17px;
+	position: absolute;
+	padding-left:2px;
+	font-weight: bold;
+}
+.toptext1 {
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: underline;
+    line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 30px;
+	font-style: italic;
+	font-variant: small-caps;
+	color:#555555;
+	display:block;
 	top:17px;
 	padding-left:2px;
-}
-.tracking-logo .ending {
-    color:#4CAF50;
-}
-.tracking-logo:hover {
-	color:#555555;
+	font-weight: bold;
+	float: right;
 }
 .topnav {
   position:relative;
@@ -307,10 +318,6 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
     text-align:center;
     margin:auto;
   }
-  .toptext {
-    width:100%;
-    text-align:center;
-  }
   #leftmenu {
     display:none;
     position:fixed;
@@ -357,9 +364,6 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
   .top {
     height:68px;
   }
-  .toptext {
-    display:none;
-  }
   .w3-dropnav .w3-col, .w3-dropnav #nav_references_content .w3-col {
     height:auto;
   }
@@ -388,16 +392,6 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
   font-size: 2em;
 }
 .fa-home:before { content: '\f015'; }
-.fa-globe:before { content: '\e801'; }
-.fa-search:before { content: '\e802'; }
-.fa-thumbs-o-up:before { content: '\e803'; }
-.fa-left-open:before { content: '\e804'; }
-.fa-right-open:before { content: '\e805'; }
-.fa-facebook-square:before { content: '\e806'; }
-.fa-google-plus-square:before { content: '\e807'; }
-.fa-twitter-square:before { content: '\e808'; }
-.fa-caret-down:before { content: '\e809'; }
-.fa-caret-up:before { content: '\e80a'; }
 
 /*STYLES FOR Å RETTE OPP I "LYSPÆRA" SOM BLIR FOR SMAL PGA WIDTH 34PX:*/
 .lamp {
